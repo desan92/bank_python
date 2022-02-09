@@ -74,11 +74,3 @@ BEGIN
 
 END
 
-INSERT INTO `user_bank`(`nom_usuari`, `cognoms_usuari`, `username`, `pass`, `tlf_usuari`, `email_usuari`)
-VALUES ("Jordi","de San Antonio Planas","DeSan","23011992","789678567","jordi.jordi@gmail.com")
-
-INSERT INTO `compte_bank`(`nun_compte`, `saldo`, `id_usuari`)
-VALUES ("ES23 1233 3213 23 0200051332",0,1)
-
-INSERT INTO `moviment_compte`(`tipus_moviment`, `import_diners`, `id_compte`)
-VALUES ("Pagament",-50,1)
